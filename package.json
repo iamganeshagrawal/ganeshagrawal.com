@@ -1,0 +1,20 @@
+{
+  "name": "ganeshagrawal.com",
+  "version": "1.0.0",
+  "description": "Personal website using next.js",
+  "main": "index.js",
+  "repository": "git@github.com:iamganeshagrawal/ganeshagrawal.com.git",
+  "author": "Ganesh Agrawal <hello@ganeshagrawal.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "next start",
+    "dev": "next",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
