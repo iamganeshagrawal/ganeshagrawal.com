@@ -16,6 +16,10 @@
       "source": "/linkedin",
       "destination": "https://www.linkedin.com/in/iamganeshagrawal"
     },
+    {
+      "source": "/twitter",
+      "destination": "https://twitter.com/imganeshagrawal"
+    },
     { "source": "/telegram", "destination": "https://t.me/ganeshagrawal" },
     { "source": "/messenger", "destination": "https://m.me/iamganeshagrawal" },
     {

@@ -9,8 +9,6 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   min-height: fill-available;
-  //   background: url(../images/hawamahal.png) no-repeat center center fixed;
-  //   background-size: cover;
 }
 html {
   min-height: fill-available;
@@ -25,118 +23,5 @@ a {
   }
   img {
     border: 0;
-  }
-}
-
-// Layout
-.line {
-  display: block;
-  width: calc(min(50vw, 512px));
-  height: 3px;
-  padding: 0 !important;
-  background: #ccc;
-  margin: 10px 0;
-}
-
-// Intro
-.intro {
-  width: 100vw;
-  //   min-height: 100vh;
-  //   min-height: fill-available;
-  height: var(--mvh);
-  background-color: #0d2c5a;
-  background: url(../images/hawamahal.png) no-repeat center center fixed;
-  background-size: cover;
-
-  a {
-    color: #5b9bbc;
-  }
-  .line {
-    background-color: #5b9bbc;
-  }
-  .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: calc(var(--mvh) - 60px);
-    background: transparent;
-    color: white;
-
-    h1 {
-      margin: 0;
-      padding: 0;
-      color: inherit;
-      font-size: 3.75rem;
-      font-weight: 900;
-      letter-spacing: 0.1em;
-      line-height: 1em;
-      text-transform: uppercase;
-      @media screen and (max-width: 640px) {
-        font-size: 2.3rem;
-      }
-      @media screen and (max-width: 400px) {
-        font-size: 1.8rem;
-      }
-    }
-    h4 {
-      margin: 0;
-      padding: 0;
-      color: inherit;
-      font-size: 1.875rem;
-      font-weight: 300;
-      letter-spacing: 0.1em;
-      line-height: 1em;
-      text-transform: uppercase;
-      @media screen and (max-width: 640px) {
-        font-size: 1.5rem;
-      }
-      @media screen and (max-width: 400px) {
-        font-size: 1.2rem;
-      }
-    }
-  }
-  .navbar-wrapper {
-    height: 60px;
-    .navbar {
-      height: 60px;
-      text-align: center;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      &.sticky {
-        position: fixed;
-        top: 0px;
-        background-color: #0d2c5a;
-        width: 100%;
-      }
-      a {
-        color: white;
-        display: block;
-        padding: 0 8px;
-        font-size: 0.938em;
-        letter-spacing: 0.1rem;
-        color: #5b9bbc;
-        text-decoration: none;
-        text-transform: uppercase;
-        span {
-          color: inherit;
-          @media screen and (max-width: 640px) {
-            display: none;
-          }
-        }
-        &:hover {
-          color: #ffffff;
-        }
-        &.current {
-          color: #ffffff;
-        }
-        @media screen and (max-width: 640px) {
-          font-size: 0.875rem;
-        }
-      }
-    }
   }
 }
