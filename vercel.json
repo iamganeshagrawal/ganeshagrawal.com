@@ -1,0 +1,18 @@
+{
+	"redirects": [
+    { "source": "/instagram", "destination": "https://instagram.com/iamganeshagrawal" },
+    { "source": "/facebook", "destination": "https://facebook.com/iamganeshagrawal" },
+    { "source": "/github", "destination": "https://github.com/iamganeshagrawal" },
+		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/iamganeshagrawal" },
+		{ "source": "/telegram", "destination": "https://t.me/ganeshagrawal" },
+		{ "source": "/messenger", "destination": "https://m.me/iamganeshagrawal" },
+		{ "source": "/view-source", "destination": "https://github.com/iamganeshagrawal/ganeshagrawal.com" },
+		{ "source": "/thelocalcoder", "destination": "https://instagram.com/thelocalcoder" },
+		{ "source": "/tlc", "destination": "https://instagram.com/thelocalcoder" },
+		{ "source": "/blog", "destination": "https://blog.ganeshagrawal.com" },
+		{ "source": "/devto", "destination": "https://dev.to/ganeshagrawal" },
+		{ "source": "/hashnode", "destination": "https://hashnode.com/@ganeshagrawal" },
+		{ "source": "/medium", "destination": "https://medium.com/@iamganeshagrawal" },
+		{ "source": "/youtube", "destination": "https://www.youtube.com/gmegotiya" },
+  ]
+}
