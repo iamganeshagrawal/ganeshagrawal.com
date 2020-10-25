@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
           <meta name="author" content="Ganesh Agrawal" />
           <link
-            href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic"
             rel="stylesheet"
             type="text/css"
           />
